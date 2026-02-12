@@ -1,0 +1,17 @@
+# Local terraform state (sensitive!)
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+
+# The massive terraform folder with binaries (The fix for your error)
+.terraform/
+
+# Ignore variables that might contain secrets
+*.tfvars
+*.tfvars.json
+
+# Ignore override files
+override.tf
+override.tf.json
